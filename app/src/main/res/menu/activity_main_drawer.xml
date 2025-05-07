@@ -24,5 +24,9 @@
             android:id="@+id/nav_browser"
             android:icon="@drawable/ic_launcher_foreground"
             android:title="@string/menu_browser" />
+        <item
+            android:id="@+id/nav_internet"
+            android:icon="@drawable/side_nav_bar"
+            android:title="@string/internet" />
     </group>
 </menu>
