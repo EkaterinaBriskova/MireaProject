@@ -26,3 +26,17 @@ Android позволяет создать собственное окно для
 ![image](https://github.com/user-attachments/assets/a22c3729-0b52-4f4e-b8a5-fab425b4f186)
 
 ![image](https://github.com/user-attachments/assets/16163378-b382-4ea2-9069-276e0af6a22d)
+
+## Практическая работа №4
+
+### Задание №10
+
+В проекте «MireaProject» создать отдельный фрагмент выполнения фоновой задачи и реализовать её выполнение с помощью применения механизма «Worker», либо одной из разновидностей сервисов
+
+![image](https://github.com/user-attachments/assets/52833a71-717f-40ea-8dd6-47b92f888dc2)
+
+![image](https://github.com/user-attachments/assets/f104f56f-0e6f-4fe5-86f9-9fc77abdcda6)
+
+![image](https://github.com/user-attachments/assets/d0b795c4-4be6-4fb3-9a0d-0de83bd34abd)
+
+
