@@ -37,6 +37,23 @@
     <fragment
         android:id="@+id/nav_internet"
         android:name="com.mirea.briskovaekaterinaborisovna.mireaproject.Internet"
-        android:label="fragment_blank"
+        android:label="@string/internet"
         tools:layout="@layout/fragment_internet" />
+    <fragment
+        android:id="@+id/compassFragment"
+        android:name="com.mirea.briskovaekaterinaborisovna.mireaproject.ui.hard.CompassFragment"
+        android:label="@string/menu_compass"
+        tools:layout="@layout/fragment_compass" />
+
+    <fragment
+        android:id="@+id/cameraFragment"
+        android:name="com.mirea.briskovaekaterinaborisovna.mireaproject.ui.hard.CameraFragment"
+        android:label="@string/menu_camera"
+        tools:layout="@layout/fragment_camera" />
+
+    <fragment
+        android:id="@+id/microphoneFragment"
+        android:name="com.mirea.briskovaekaterinaborisovna.mireaproject.ui.hard.MicrophoneFragment"
+        android:label="@string/menu_microphone"
+        tools:layout="@layout/fragment_microphone" />
 </navigation>
