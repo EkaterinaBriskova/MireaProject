@@ -47,3 +47,7 @@ Android позволяет создать собственное окно для
 
 ![image](https://github.com/user-attachments/assets/21a5ef75-71c0-424c-8390-0fe531c73dc3)
 
+## Практическая работа №6
+
+### Задание №6
+
