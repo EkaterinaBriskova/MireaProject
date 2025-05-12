@@ -34,26 +34,40 @@
         android:name="com.mirea.briskovaekaterinaborisovna.mireaproject.ui.webview.WebViewFragment"
         android:label="@string/menu_browser"
         tools:layout="@layout/fragment_webview" />
+
     <fragment
-        android:id="@+id/nav_internet"
-        android:name="com.mirea.briskovaekaterinaborisovna.mireaproject.Internet"
-        android:label="@string/internet"
-        tools:layout="@layout/fragment_internet" />
-    <fragment
-        android:id="@+id/compassFragment"
-        android:name="com.mirea.briskovaekaterinaborisovna.mireaproject.ui.hard.CompassFragment"
-        android:label="@string/menu_compass"
+        android:id="@+id/nav_sensor"
+        android:name="com.mirea.briskovaekaterinaborisovna.mireaproject.ui.hardware.CompassFragment"
+        android:label="Датчик"
         tools:layout="@layout/fragment_compass" />
 
     <fragment
-        android:id="@+id/cameraFragment"
+        android:id="@+id/nav_camera"
         android:name="com.mirea.briskovaekaterinaborisovna.mireaproject.ui.hard.CameraFragment"
-        android:label="@string/menu_camera"
+        android:label="Камера"
         tools:layout="@layout/fragment_camera" />
 
     <fragment
-        android:id="@+id/microphoneFragment"
+        android:id="@+id/nav_microphone"
         android:name="com.mirea.briskovaekaterinaborisovna.mireaproject.ui.hard.MicrophoneFragment"
-        android:label="@string/menu_microphone"
+        android:label="Микрофон"
         tools:layout="@layout/fragment_microphone" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.mirea.briskovaekaterinaborisovna.mireaproject.ui.profile.ProfileFragment"
+        android:title="Профиль"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_filework"
+        android:name="com.mirea.briskovaekaterinaborisovna.mireaproject.ui.filework.FileWorkFragment"
+        android:title="Работа с файлами"
+        tools:layout="@layout/fragment_file_work" />
+
+    <fragment
+        android:id="@+id/networkFragment"
+        android:name="com.mirea.briskovaekaterinaborisovna.mireaproject.ui.firebase.NetworkFragment"
+        android:label="Сеть"
+        tools:layout="@layout/fragment_network" />
 </navigation>
