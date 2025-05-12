@@ -6,7 +6,6 @@ import android.view.View;
 import android.view.Menu;
 import android.Manifest;
 
-
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
 
@@ -34,14 +33,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(binding.getRoot());
         requestPermissionsIfNeeded();
         setSupportActionBar(binding.appBarMain.toolbar);
-        binding.appBarMain.fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null)
-                        .setAnchorView(R.id.fab).show();
-            }
-        });
         DrawerLayout drawer = binding.drawerLayout;
         NavigationView navigationView = binding.navView;
         mAppBarConfiguration = new AppBarConfiguration.Builder(
@@ -66,6 +57,7 @@ public class MainActivity extends AppCompatActivity {
         return NavigationUI.navigateUp(navController, mAppBarConfiguration)
                 || super.onSupportNavigateUp();
     }
+
     private static final int REQUEST_PERMISSIONS_CODE = 1001;
 
     private void requestPermissionsIfNeeded() {
@@ -81,4 +73,5 @@ public class MainActivity extends AppCompatActivity {
                     },
                     REQUEST_PERMISSIONS_CODE);
         }
-}}
+    }
+}
